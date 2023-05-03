@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int_strein - returns length of string
+ * _strein - returns length of string
  * @s: string
  * Return: length
  */
