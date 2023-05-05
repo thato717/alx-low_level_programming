@@ -9,7 +9,7 @@ char *rot13(char *s)
 {
 	int x, y;
 	char dataa[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char datarot[] = "KLMNOPQRSTUVWYZABCDEFGHIJklmnopqrstuvwxyzabcdefghij";
+	char datarot[] = "NOPQRSTUVWYZABCDEFGHIJklMnopqrstuvwxyzabcdefghijlm";
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
